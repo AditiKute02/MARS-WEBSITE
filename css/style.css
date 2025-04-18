@@ -791,7 +791,6 @@ body {
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background: #f0f0f0;
 }
 
 .departments-section {
@@ -863,8 +862,6 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-
-  background: rgba(0, 0, 0, 0.4);
   box-sizing: border-box;
 }
 
@@ -883,18 +880,15 @@ body {
 }
 
 .overlay button {
-  padding: 8px 20px;
-  background-color: #00aaff;
-  border: none;
-  color: white;
+  padding: 10px 20px;
+  color: #fff;
+  border: 2px solid #00aaff;  /* Adds visibility with a colored border */
   border-radius: 5px;
   cursor: pointer;
   font-size: 14px;
-
-  margin: 0 auto;
-  display: block;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #000;  /* Enhances text contrast */
+  margin-top: 15px;
 }
 
-.department-card:hover .overlay {
-  background: rgba(0, 0, 0, 0.5);
-}
+
